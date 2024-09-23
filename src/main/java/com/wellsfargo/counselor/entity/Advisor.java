@@ -10,6 +10,7 @@ import jakarta.persistence.Id;
 public class Advisor {
 
     @Id
+    @Column(name= "advisor_id", nullable = false)
     @GeneratedValue()
     private long advisorId;
 
